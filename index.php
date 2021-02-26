@@ -31,7 +31,7 @@
 </div>
 </section-->
 
-<div class="container">
+<div class="container col-md-8">
 
 
 <div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
@@ -39,20 +39,55 @@
 	<p class="lead">Lorem ipsum dolor sit, amet consectetur adipisicing, elit. Quia dolor exercitationem fugiat cumque, sint totam fugit saepe porro sit pariatur minima enim delectus deleniti magni alias quam dolore dolores adipisci doloremque! Consequuntur totam, et nostrum culpa voluptates aspernatur maiores, deleniti facilis sequi, itaque accusamus error accusantium! Natus nobis odio, odit.</p>
 </div>
 
+</div>
 
+<section style="background-color:red; padding-top:1em;"> 
+
+  <h2 class="text-center mt-2 mb-4">Entradas para el evento</h2>
+
+<div class="container col-md-8"> 
 <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
 	<div class="col">
-		<div class="card" style="width: 18rem;">
-  			<img src="..." class="card-img-top" alt="...">
+		<div class="card mb-4 shadow-sm" style="width: 18rem;">
+  			<img src="img/card-image1.png" class="card-img-top" alt="...">
   			<div class="card-body shadow-sm">
+          <h5 class="card-title">Primer día</h5>
     			<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    			<a href="#" class="btn btn-primary">Go somewhere</a>
+    			<a href="#" class="btn btn-primary">Reservá tu entrada</a>
   			</div>
 		</div>
 	</div>
+  <div class="col">
+    <div class="card mb-4 shadow-sm" style="width: 18rem;">
+        <img src="img/card-image1.png" class="card-img-top" alt="...">
+        <div class="card-body shadow-sm">
+          <h5 class="card-title">Segundo día</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <a href="#" class="btn btn-primary">Reservá tu entrada</a>
+        </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card mb-4 shadow-sm" style="width: 18rem;">
+        <img src="img/card-image1.png" class="card-img-top" alt="...">
+        <div class="card-body shadow-sm">
+          <h5 class="card-title">Tercer día</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <a href="#" class="btn btn-primary">Reservá tu entrada</a>
+        </div>
+    </div>
+  </div>
 </div>
+
 </div>
-<footer></footer>
+
+</section>
+
+
+
+<footer>
+  
+</footer>
 
 <script src="js/jquery.js"></script>
 <script src="js/popper.min.js"></script>
