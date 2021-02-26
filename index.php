@@ -34,13 +34,13 @@
 <div class="container">
 
 
-<section class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
-	<h1>Acerca de la Jineteada</h1>
-	<p>Lorem ipsum dolor sit, amet consectetur adipisicing, elit. Quia dolor exercitationem fugiat cumque, sint totam fugit saepe porro sit pariatur minima enim delectus deleniti magni alias quam dolore dolores adipisci doloremque! Consequuntur totam, et nostrum culpa voluptates aspernatur maiores, deleniti facilis sequi, itaque accusamus error accusantium! Natus nobis odio, odit.</p>
-</section>
+<div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
+	<h1 class="display-4">Acerca de la Jineteada</h1>
+	<p class="lead">Lorem ipsum dolor sit, amet consectetur adipisicing, elit. Quia dolor exercitationem fugiat cumque, sint totam fugit saepe porro sit pariatur minima enim delectus deleniti magni alias quam dolore dolores adipisci doloremque! Consequuntur totam, et nostrum culpa voluptates aspernatur maiores, deleniti facilis sequi, itaque accusamus error accusantium! Natus nobis odio, odit.</p>
+</div>
 
 
-<section class="row row-cols-1 row-cols-md-3 mb-3 text-center">
+<div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
 	<div class="col">
 		<div class="card" style="width: 18rem;">
   			<img src="..." class="card-img-top" alt="...">
@@ -50,7 +50,7 @@
   			</div>
 		</div>
 	</div>
-</section>
+</div>
 </div>
 <footer></footer>
 
