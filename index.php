@@ -3,21 +3,22 @@
 <head>
 	<title></title>
 	<link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
 
 
-<!--section>
+<section>
 <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="img/image (1).jpg" class="d-block w-100" alt="...">
+      <img src="img/image1.jpg" class="d-block w-100" alt="...">
     </div>
     <div class="carousel-item">
-      <img src="img/image (4).jpg" class="d-block w-100" alt="...">
+      <img src="img/image2.jpg" class="d-block w-100" alt="...">
     </div>
     <div class="carousel-item">
-      <img src="img/image (5).jpg" class="d-block w-100" alt="...">
+      <img src="img/image3.jpg" class="d-block w-100" alt="...">
     </div>
   </div>
   <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"  data-bs-slide="prev">
@@ -29,7 +30,7 @@
     <span class="visually-hidden">Next</span>
   </button>
 </div>
-</section-->
+</section>
 
 <div class="container col-md-8">
 
@@ -43,12 +44,12 @@
 
 <section style="background-color:#ebebeb; padding-top:1em;"> 
 
-  <h2 class="text-center mt-2 mb-4 text-light">Entradas para el evento</h2>
+  <h2 class="text-center mt-2 mb-4 pricing-header">Entradas para el evento</h2>
 
 <div class="container col-md-8"> 
 <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
 	<div class="col">
-		<div class="card mb-4 shadow-sm" style="width: 18rem;border: none;">
+		<div class="card mb-4 shadow-sm" style="width: 15rem;border: none;">
   			<img src="img/card-image1.png" class="card-img-top" alt="...">
   			<div class="card-body shadow-sm">
           <h5 class="card-title">Primer día</h5>
@@ -60,7 +61,7 @@ data-preference-id="130258701-6a989ca9-7c12-4401-9827-849feb1daa7b">
 		</div>
 	</div>
   <div class="col">
-    <div class="card mb-4 shadow-sm" style="width: 18rem;border: none;">
+    <div class="card mb-4 shadow-sm" style="width: 15rem;border: none;">
         <img src="img/card-image1.png" class="card-img-top" alt="...">
         <div class="card-body shadow-sm">
           <h5 class="card-title">Segundo día</h5>
@@ -72,7 +73,7 @@ data-preference-id="130258701-6a989ca9-7c12-4401-9827-849feb1daa7b">
     </div>
   </div>
   <div class="col">
-    <div class="card mb-4 shadow-sm" style="width: 18rem;border: none;">
+    <div class="card mb-4 shadow-sm" style="width: 15rem;border: none;">
         <img src="img/card-image1.png" class="card-img-top" alt="...">
         <div class="card-body shadow-sm">
           <h5 class="card-title">Tercer día</h5>
@@ -91,7 +92,7 @@ data-preference-id="130258701-6a989ca9-7c12-4401-9827-849feb1daa7b">
 
 
 
-<footer class="col-md-12 bg-dark container">
+<footer class="col-md-12 bg-dark">
   <div class="col-md-3">
   	<a href="">Facebook</a>
   	<a href="">Instagram</a>
