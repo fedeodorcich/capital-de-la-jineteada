@@ -41,39 +41,45 @@
 
 </div>
 
-<section style="background-color:red; padding-top:1em;"> 
+<section style="background-color:#ebebeb; padding-top:1em;"> 
 
-  <h2 class="text-center mt-2 mb-4">Entradas para el evento</h2>
+  <h2 class="text-center mt-2 mb-4 text-light">Entradas para el evento</h2>
 
 <div class="container col-md-8"> 
 <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
 	<div class="col">
-		<div class="card mb-4 shadow-sm" style="width: 18rem;">
+		<div class="card mb-4 shadow-sm" style="width: 18rem;border: none;">
   			<img src="img/card-image1.png" class="card-img-top" alt="...">
   			<div class="card-body shadow-sm">
           <h5 class="card-title">Primer día</h5>
     			<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    			<a href="#" class="btn btn-primary">Reservá tu entrada</a>
+    			<script src="https://www.mercadopago.com.ar/integrations/v1/web-payment-checkout.js"
+data-preference-id="130258701-6a989ca9-7c12-4401-9827-849feb1daa7b">
+</script>
   			</div>
 		</div>
 	</div>
   <div class="col">
-    <div class="card mb-4 shadow-sm" style="width: 18rem;">
+    <div class="card mb-4 shadow-sm" style="width: 18rem;border: none;">
         <img src="img/card-image1.png" class="card-img-top" alt="...">
         <div class="card-body shadow-sm">
           <h5 class="card-title">Segundo día</h5>
           <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          <a href="#" class="btn btn-primary">Reservá tu entrada</a>
+             			<script src="https://www.mercadopago.com.ar/integrations/v1/web-payment-checkout.js"
+data-preference-id="130258701-6a989ca9-7c12-4401-9827-849feb1daa7b">
+</script>
         </div>
     </div>
   </div>
   <div class="col">
-    <div class="card mb-4 shadow-sm" style="width: 18rem;">
+    <div class="card mb-4 shadow-sm" style="width: 18rem;border: none;">
         <img src="img/card-image1.png" class="card-img-top" alt="...">
         <div class="card-body shadow-sm">
           <h5 class="card-title">Tercer día</h5>
           <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          <a href="#" class="btn btn-primary">Reservá tu entrada</a>
+             			<script src="https://www.mercadopago.com.ar/integrations/v1/web-payment-checkout.js"
+data-preference-id="130258701-6a989ca9-7c12-4401-9827-849feb1daa7b">
+</script>
         </div>
     </div>
   </div>
@@ -85,9 +91,16 @@
 
 
 
-<footer>
-  
+<footer class="col-md-12 bg-dark container">
+  <div class="col-md-3">
+  	<a href="">Facebook</a>
+  	<a href="">Instagram</a>
+  	<a href="">Twitter</a>
+  </div>
+  <div></div>
 </footer>
+
+
 
 <script src="js/jquery.js"></script>
 <script src="js/popper.min.js"></script>
