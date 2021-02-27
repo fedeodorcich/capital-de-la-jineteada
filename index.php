@@ -7,6 +7,11 @@
 </head>
 <body>
 
+<nav class="navbar navbar-light bg-light">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">capital de la jineteada</a>
+  </div>
+</nav>
 
 <section>
 <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
@@ -49,7 +54,7 @@
 <div class="container col-md-8"> 
 <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
 	<div class="col">
-		<div class="card mb-4 shadow-sm" style="width: 15rem;border: none;">
+		<div class="card mb-4 shadow-sm" style="width: 18rem;border: none;">
   			<img src="img/card-image1.png" class="card-img-top" alt="...">
   			<div class="card-body shadow-sm">
           <h5 class="card-title">Primer día</h5>
@@ -61,7 +66,7 @@ data-preference-id="130258701-6a989ca9-7c12-4401-9827-849feb1daa7b">
 		</div>
 	</div>
   <div class="col">
-    <div class="card mb-4 shadow-sm" style="width: 15rem;border: none;">
+    <div class="card mb-4 shadow-sm" style="width: 18rem;border: none;">
         <img src="img/card-image1.png" class="card-img-top" alt="...">
         <div class="card-body shadow-sm">
           <h5 class="card-title">Segundo día</h5>
@@ -73,7 +78,7 @@ data-preference-id="130258701-6a989ca9-7c12-4401-9827-849feb1daa7b">
     </div>
   </div>
   <div class="col">
-    <div class="card mb-4 shadow-sm" style="width: 15rem;border: none;">
+    <div class="card mb-4 shadow-sm" style="width: 18rem;border: none;">
         <img src="img/card-image1.png" class="card-img-top" alt="...">
         <div class="card-body shadow-sm">
           <h5 class="card-title">Tercer día</h5>
@@ -101,10 +106,15 @@ data-preference-id="130258701-6a989ca9-7c12-4401-9827-849feb1daa7b">
   <div></div>
 </footer>
 
+<i data-feather="circle"></i>
 
 
 <script src="js/jquery.js"></script>
 <script src="js/popper.min.js"></script>
 <script src="js/bootstrap.bundle.min.js"></script>
+
+<script>
+	feather.replace();
+</script>
 </body>
 </html>
