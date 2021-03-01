@@ -5,7 +5,7 @@ body{
 	color: white;
 }
 .navbar{
-	background-image: linear-gradient(to right,#2C4373,#06BFBF);
+	background-image: linear-gradient(to right,#F57714,#FAAB0D);
 }
 .navbar a{
 	color:white;
@@ -23,20 +23,39 @@ body{
 }
 
 footer{
-	background-color:#948608;
-	height: 300px;
+	background-color:#F57714;
+	height: 200px;
 }
 
-@media (min-width: 768px) {
-    .bd-placeholder-img-lg {
-         font-size: 3.5rem;
-      }
+footer ul{
+	list-style: none;
 }
 
-@media (max-width: 360px){
-	
+#entradassm{
+	display: none;
+}
+#entradasmd{
+	display: block;
+}
+
+@media (max-width: 380px){
+	#entradassm{
+		display: block;
+	}
+	#entradasmd{
+		display: none;
+	}
 	.card:hover{
-		transform:none;
+		transform:scale(.8);
+	}
+	.slick-slide{
+		outline: none;
+	}
+	.slick-active .card{
+		opacity: 1;
+	}
+	footer ul li{
+		font-size: 12px;
 	}
 
 }
