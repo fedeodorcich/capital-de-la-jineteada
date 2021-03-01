@@ -169,20 +169,26 @@
 </style>
 
 
-<footer class="col-md-12 p-4 row" style="margin: 0;padding: 0;">
-  <div class="col">
-  	<a href="" class="text-dark"><i data-feather="facebook"></i></a>
-  	<a href="" class="text-dark"><i data-feather="instagram"></i></a>
-  	<a href="" class="text-dark"><i data-feather="twitter"></i></a>
+<footer class="col-md-12 p-4">
+  <div class="col text-center" id="follow">
+    <div class="mb-3">
+      <b>SEGUINOS</b>
+    </div>
+    <div class="nets">
+        <a href="" class="text-dark"><i data-feather="facebook"></i></a>
+        <a href="" class="text-dark"><i data-feather="instagram"></i></a>
+        <a href="" class="text-dark"><i data-feather="twitter"></i></a>
+    </div>    
   </div>
-  <div class="col">
-  	<ul>
-      <li>Contacto</li>
-      <br>
-  		<li>+54261 985 5432</li>
-  		<li>+54261 985 5432</li>
-  		<li>+54261 985 5432</li>
-  	</ul>
+  
+  <div class="col text-center mt-5" id="contact">
+    <div class="mb-3">
+      <b>CONTACTO</b>
+    </div>
+    <div>
+      <p>+54 2645035394</p>
+      <p>info@capitaldelajinetida.com</p>
+    </div>  
   </div>
 </footer>
 

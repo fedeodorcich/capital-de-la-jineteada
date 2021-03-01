@@ -1,3 +1,4 @@
+feather.replace();
 $(document).ready(function(){
  $('.center').slick({
   centerMode: true,

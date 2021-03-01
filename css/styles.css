@@ -24,11 +24,11 @@ body{
 
 footer{
 	background-color:#F57714;
-	height: 200px;
+	height: 250px;
 }
 
-footer ul{
-	list-style: none;
+#contact p{
+	margin: 0;
 }
 
 #entradassm{
@@ -36,6 +36,10 @@ footer ul{
 }
 #entradasmd{
 	display: block;
+}
+
+.nets a{
+	margin: 10px 10px;
 }
 
 @media (max-width: 380px){
