@@ -164,7 +164,7 @@
 
 <style>
 	.mercadopago-button{
-	background-color:#F57714;
+	background-color:#8C4820;
 }
 </style>
 
