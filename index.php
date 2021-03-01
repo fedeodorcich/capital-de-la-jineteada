@@ -2,14 +2,24 @@
 <html>
 <head>
 	<title></title>
-	<link rel="stylesheet" href="css/bootstrap.min.css">
-  <link rel="stylesheet" href="css/styles.css">
-</head>
-<body>
 
-<nav class="navbar navbar-light bg-light">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel="stylesheet" href="css/owl.carousel.min.css">
+	<link rel="stylesheet" href="css/owl.theme.default.min.css">
+
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+  	<link rel="stylesheet" href="css/styles.css">
+
+  
+	
+
+</head>
+<body class="bg-dark">
+
+<nav class="navbar">
   <div class="container-fluid">
-    <a class="navbar-brand" href="#">capital de la jineteada</a>
+    <a class="navbar-brand" href="#">Capital de la Jineteada</a>
   </div>
 </nav>
 
@@ -47,7 +57,7 @@
 
 </div>
 
-<section style="background-color:#ebebeb; padding-top:1em;"> 
+<section style="padding-top:1em;" id="entradasmd"> 
 
   <h2 class="text-center mt-2 mb-4 pricing-header">Entradas para el evento</h2>
 
@@ -58,10 +68,14 @@
   			<img src="img/card-image1.png" class="card-img-top" alt="...">
   			<div class="card-body shadow-sm">
           <h5 class="card-title">Primer día</h5>
-    			<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    			<script src="https://www.mercadopago.com.ar/integrations/v1/web-payment-checkout.js"
-data-preference-id="130258701-6a989ca9-7c12-4401-9827-849feb1daa7b">
-</script>
+    	 		<ul class="list-unstyled mt-3 mb-4">
+          			<li>10 users included</li>
+          			<li>2 GB of storage</li>
+          			<li>Email support</li>
+          			<li>Help center access</li>
+        		</ul>
+    		<script src="https://www.mercadopago.com.ar/integrations/v1/web-payment-checkout.js"data-preference-id="130258701-6a989ca9-7c12-4401-9827-849feb1daa7b">
+			</script>
   			</div>
 		</div>
 	</div>
@@ -70,10 +84,14 @@ data-preference-id="130258701-6a989ca9-7c12-4401-9827-849feb1daa7b">
         <img src="img/card-image1.png" class="card-img-top" alt="...">
         <div class="card-body shadow-sm">
           <h5 class="card-title">Segundo día</h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-             			<script src="https://www.mercadopago.com.ar/integrations/v1/web-payment-checkout.js"
-data-preference-id="130258701-6a989ca9-7c12-4401-9827-849feb1daa7b">
-</script>
+          		<ul class="list-unstyled mt-3 mb-4">
+          			<li>10 users included</li>
+          			<li>2 GB of storage</li>
+          			<li>Email support</li>
+          			<li>Help center access</li>
+          		</ul>
+        	<script src="https://www.mercadopago.com.ar/integrations/v1/web-payment-checkout.js"data-preference-id="130258701-6a989ca9-7c12-4401-9827-849feb1daa7b">
+			</script>
         </div>
     </div>
   </div>
@@ -82,10 +100,14 @@ data-preference-id="130258701-6a989ca9-7c12-4401-9827-849feb1daa7b">
         <img src="img/card-image1.png" class="card-img-top" alt="...">
         <div class="card-body shadow-sm">
           <h5 class="card-title">Tercer día</h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-             			<script src="https://www.mercadopago.com.ar/integrations/v1/web-payment-checkout.js"
-data-preference-id="130258701-6a989ca9-7c12-4401-9827-849feb1daa7b">
-</script>
+          		<ul class="list-unstyled mt-3 mb-4">
+          			<li>10 users included</li>
+          			<li>2 GB of storage</li>
+          			<li>Email support</li>
+          			<li>Help center access</li>
+          		</ul>
+        	<script src="https://www.mercadopago.com.ar/integrations/v1/web-payment-checkout.js"data-preference-id="130258701-6a989ca9-7c12-4401-9827-849feb1daa7b">
+			</script>
         </div>
     </div>
   </div>
@@ -97,24 +119,43 @@ data-preference-id="130258701-6a989ca9-7c12-4401-9827-849feb1daa7b">
 
 
 
-<footer class="col-md-12 bg-dark">
-  <div class="col-md-3">
+<section id="entradassm">
+	<div></div>
+</section>
+
+
+
+
+<style>
+	.mercadopago-button{
+	background-color:#E0CC19;
+}
+</style>
+
+
+<footer class="col-md-12 p-5 row">
+  <div class="col">
   	<a href="">Facebook</a>
   	<a href="">Instagram</a>
   	<a href="">Twitter</a>
   </div>
-  <div></div>
+  <div class="col">
+  	<span>Contacto</span>
+  	<ul>
+  		<li>*54261 985 5432</li>
+  		<li></li>
+  		<li></li>
+  	</ul>
+  </div>
 </footer>
 
-<i data-feather="circle"></i>
+
 
 
 <script src="js/jquery.js"></script>
 <script src="js/popper.min.js"></script>
 <script src="js/bootstrap.bundle.min.js"></script>
 
-<script>
-	feather.replace();
-</script>
+
 </body>
 </html>
