@@ -1,3 +1,8 @@
+@font-face{
+	src:url('../fonts/OpenSansCondensed-Light.ttf');
+	font-family: 'OpenSC-light';
+}
+
 .container {
   max-width: 960px;
 }
@@ -10,6 +15,12 @@ body{
 .navbar a{
 	color:white;
 }
+
+.lead{
+		font-family: 
+		font-size: 15px;
+	}
+
 .card{
 	min-height: 25rem;
 	background-color: #ebebeb;
@@ -79,7 +90,7 @@ footer{
 		font-size: 12px;
 	}
 	.lead{
-		font-size: 12px;
+		font-size: 14px;
 	}
 
 }
