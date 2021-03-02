@@ -50,6 +50,19 @@
 
 </div>
 
+
+<div id="allin" class="container col-md-8" style="margin:0 auto; display: block">
+ 
+</div>
+
+
+
+<!-------------------------------------------------------CONTENEDOR 3 DIAS SEPARADOS----->
+<div id="separated">
+
+
+
+<!-------------------------------------------------------VISTA DESKTOP----->
 <section style="padding-top:1em;" id="entradasmd"> 
 
   <h2 class="text-center mt-2 mb-4 pricing-header">Entradas para el evento</h2>
@@ -60,12 +73,11 @@
 		<div class="card mb-4 shadow-sm" style="width: 18rem;border: none;">
   			<img src="img/card-image1.png" class="card-img-top" alt="...">
   			<div class="card-body shadow-sm">
-          <h5 class="card-title">Primer día</h5>
+          <h5 class="card-title">Viernes 19 de Marzo</h5>
     	 		<ul class="list-unstyled mt-3 mb-4">
-          			<li>10 users included</li>
-          			<li>2 GB of storage</li>
-          			<li>Email support</li>
-          			<li>Help center access</li>
+                <li>Apertura de la 70º edición</li>
+                <li>Jineteada y peña</li>
+                <li>desde las 19 horas</li>
         		</ul>
     		<script src="https://www.mercadopago.com.ar/integrations/v1/web-payment-checkout.js"data-preference-id="130258701-6a989ca9-7c12-4401-9827-849feb1daa7b">
 			</script>
@@ -76,12 +88,11 @@
     <div class="card mb-4 shadow-sm" style="width: 18rem;border: none;">
         <img src="img/card-image1.png" class="card-img-top" alt="...">
         <div class="card-body shadow-sm">
-          <h5 class="card-title">Segundo día</h5>
+          <h5 class="card-title">Sábado 20 de Marzo</h5>
           		<ul class="list-unstyled mt-3 mb-4">
-          			<li>10 users included</li>
-          			<li>2 GB of storage</li>
-          			<li>Email support</li>
-          			<li>Help center access</li>
+          			   <li>17 horas Jineteada</li>
+                   <li>22 horas Gran peña</li>
+                   <li style="font-size: 15px;">Los Majestuosos del Chamame entre otros</li>
           		</ul>
         	<script src="https://www.mercadopago.com.ar/integrations/v1/web-payment-checkout.js"data-preference-id="130258701-6a989ca9-7c12-4401-9827-849feb1daa7b">
 			</script>
@@ -92,12 +103,10 @@
     <div class="card mb-4 shadow-sm" style="width: 18rem;border: none;">
         <img src="img/card-image1.png" class="card-img-top" alt="...">
         <div class="card-body shadow-sm">
-          <h5 class="card-title">Tercer día</h5>
+          <h5 class="card-title">Domingo 21 de Marzo</h5>
           		<ul class="list-unstyled mt-3 mb-4">
-          			<li>10 users included</li>
-          			<li>2 GB of storage</li>
-          			<li>Email support</li>
-          			<li>Help center access</li>
+          			<li>Jineteada todo el día</li>
+          			<li>Gran broche de oro</li>
           		</ul>
         	<script src="https://www.mercadopago.com.ar/integrations/v1/web-payment-checkout.js"data-preference-id="130258701-6a989ca9-7c12-4401-9827-849feb1daa7b">
 			</script>
@@ -111,18 +120,17 @@
 </section>
 
 
-
+<!-------------------------------------------------------VISTA MOVIL----->
 <section id="entradassm">
   <div class="center">
       <div> <div class="card mb-4 shadow-sm" style="width: 18rem;border: none;">
         <img src="img/card-image1.png" class="card-img-top" alt="...">
         <div class="card-body shadow-sm">
-          <h5 class="card-title">Primer día</h5>
+          <h5 class="card-title">Viernes 19 de Marzo</h5>
               <ul class="list-unstyled mt-3 mb-4">
-                <li>10 users included</li>
-                <li>2 GB of storage</li>
-                <li>Email support</li>
-                <li>Help center access</li>
+                <li>Apertura de la 70º edición</li>
+                <li>Jineteada y peña</li>
+                <li>desde las 19 horas</li>
               </ul>
           <script src="https://www.mercadopago.com.ar/integrations/v1/web-payment-checkout.js"data-preference-id="130258701-6a989ca9-7c12-4401-9827-849feb1daa7b">
       </script>
@@ -131,12 +139,11 @@
       <div> <div class="card mb-4 shadow-sm" style="width: 18rem;border: none;">
         <img src="img/card-image1.png" class="card-img-top" alt="...">
         <div class="card-body shadow-sm">
-          <h5 class="card-title">Segundo día</h5>
+          <h5 class="card-title">Sábado 20 de Marzo</h5>
               <ul class="list-unstyled mt-3 mb-4">
-                <li>10 users included</li>
-                <li>2 GB of storage</li>
-                <li>Email support</li>
-                <li>Help center access</li>
+                 <li>17 horas Jineteada</li>
+                   <li>22 horas Gran peña</li>
+                   <li style="font-size: 15px;">Los Majestuosos del Chamame entre otros</li>
               </ul>
           <script src="https://www.mercadopago.com.ar/integrations/v1/web-payment-checkout.js"data-preference-id="130258701-6a989ca9-7c12-4401-9827-849feb1daa7b">
       </script>
@@ -145,12 +152,10 @@
       <div> <div class="card mb-4 shadow-sm" style="width: 18rem;border: none;">
         <img src="img/card-image1.png" class="card-img-top" alt="...">
         <div class="card-body shadow-sm">
-          <h5 class="card-title">Tercer día</h5>
+          <h5 class="card-title">Domingo 21 de Marzo</h5>
               <ul class="list-unstyled mt-3 mb-4">
-                <li>10 users included</li>
-                <li>2 GB of storage</li>
-                <li>Email support</li>
-                <li>Help center access</li>
+                <li>Jineteada todo el día</li>
+                <li>Gran broche de oro</li>
               </ul>
           <script src="https://www.mercadopago.com.ar/integrations/v1/web-payment-checkout.js"data-preference-id="130258701-6a989ca9-7c12-4401-9827-849feb1daa7b">
       </script>
@@ -159,12 +164,20 @@
   </div>
 </section>
 
+</div>
 
 
 
+<!-------------------------------------------------------ESTILOS BOTNO MP----->
 <style>
 	.mercadopago-button{
-	background-color:#8C4820;
+	background-color:#F57714;
+  position: absolute;
+  bottom: 20px;
+  margin-left:auto;
+  margin-right:auto;
+  left:0;
+  right:0;
 }
 </style>
 
