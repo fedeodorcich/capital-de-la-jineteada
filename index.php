@@ -214,6 +214,12 @@
 <script type="text/javascript" src="slick/slick.js"></script>
 <script src="js/script.js"></script>
 
+<script>
+  $('boton finalizar').clinck(function(){
+     $('input').val();
+  });
+
+</script>
 
 </body>
 </html>
