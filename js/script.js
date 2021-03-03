@@ -1,6 +1,6 @@
 feather.replace();
 $(document).ready(function(){
-  var limit = new Date(2021,2,12);
+  /*var limit = new Date(2021,2,12);
   var fecha = new Date();
   if(limit.getTime()<fecha.getTime())
   {
@@ -13,7 +13,7 @@ $(document).ready(function(){
     $('#separated').hide();
     $('#allin').show();
   }
-  console.log(fecha+'---'+limit);
+  console.log(fecha+'---'+limit);*/
  $('.center').slick({
   centerMode: true,
   centerPadding: '60px',

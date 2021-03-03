@@ -3,7 +3,7 @@
 <head>
 	<title></title>
 
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
 
   <!-------------------------------------------CAROUSEL---------------->
   <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
@@ -51,9 +51,9 @@
 </div>
 
 
-<div id="allin" class="container col-md-8" style="margin:0 auto; display: block">
+<!--div id="allin" class="container col-md-8" style="margin:0 auto; display: block">
  
-</div>
+</div-->
 
 
 
@@ -166,8 +166,6 @@
 
 </div>
 
-
-
 <!-------------------------------------------------------ESTILOS BOTNO MP----->
 <style>
 	.mercadopago-button{
@@ -215,10 +213,6 @@
 <script src="js/script.js"></script>
 
 <script>
-  $('boton finalizar').clinck(function(){
-     $('input').val();
-  });
-
 </script>
 
 </body>
