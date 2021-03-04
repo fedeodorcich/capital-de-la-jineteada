@@ -19,8 +19,8 @@
 <body class="bg-dark">
 
 <nav class="navbar">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="#">Capital de la Jineteada</a>
+  <div class="container-fluid text-center justify-content-center">
+    <a class="navbar-brand" href="#">CAPITAL DE LA JINETEADA</a>
   </div>
 </nav>
 
@@ -44,8 +44,8 @@
 
 
 <div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
-	<h1 class="display-4">Acerca de la Jineteada</h1>
-	<p class="lead">Lorem ipsum dolor sit, amet consectetur adipisicing, elit. Quia dolor exercitationem fugiat cumque, sint totam fugit saepe porro sit pariatur minima enim delectus deleniti magni alias quam dolore dolores adipisci doloremque! Consequuntur totam, et nostrum culpa voluptates aspernatur maiores, deleniti facilis sequi, itaque accusamus error accusantium! Natus nobis odio, odit.</p>
+	<h2>ACERCA DE LA JINETEADA</h2>
+	<p class="lead">Su herencia se ve reflejado en el espectáculo que otorgan durante 3 días, que se ganó el inconfundible nombre de <b>La Capital de la Jineteada</b>, un festival único de bravura, destreza y coraje es lo que se ve en el predio de Tito Saluzzo.</p>
 </div>
 
 </div>
@@ -65,7 +65,7 @@
 <!-------------------------------------------------------VISTA DESKTOP----->
 <section style="padding-top:1em;" id="entradasmd"> 
 
-  <h2 class="text-center mt-2 mb-4 pricing-header">Entradas para el evento</h2>
+  <h2 class="text-center mt-2 mb-4 pricing-header">ENTRADAS PARA EL EVENTO</h2>
 
 <div class="container col-md-8"> 
 <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
@@ -86,7 +86,7 @@
 	</div>
   <div class="col">
     <div class="card mb-4 shadow-sm" style="width: 18rem;border: none;">
-        <img src="img/card-image1.png" class="card-img-top" alt="...">
+        <img src="img/card-image2.png" class="card-img-top" alt="...">
         <div class="card-body shadow-sm">
           <h5 class="card-title">Sábado 20 de Marzo</h5>
           		<ul class="list-unstyled mt-3 mb-4">
@@ -101,7 +101,7 @@
   </div>
   <div class="col">
     <div class="card mb-4 shadow-sm" style="width: 18rem;border: none;">
-        <img src="img/card-image1.png" class="card-img-top" alt="...">
+        <img src="img/card-image3.png" class="card-img-top" alt="...">
         <div class="card-body shadow-sm">
           <h5 class="card-title">Domingo 21 de Marzo</h5>
           		<ul class="list-unstyled mt-3 mb-4">
@@ -122,6 +122,7 @@
 
 <!-------------------------------------------------------VISTA MOVIL----->
 <section id="entradassm">
+  <h2 class="text-center mt-2 mb-4 pricing-header">ENTRADAS PARA EL EVENTO</h2>
   <div class="center">
       <div> <div class="card mb-4 shadow-sm" style="width: 18rem;border: none;">
         <img src="img/card-image1.png" class="card-img-top" alt="...">
@@ -176,6 +177,9 @@
   margin-right:auto;
   left:0;
   right:0;
+  font-family: 'Bold';
+  letter-spacing: 3px;
+  font-size: 15px;
 }
 </style>
 
@@ -198,7 +202,7 @@
     </div>
     <div>
       <p>+54 2645035394</p>
-      <p>info@capitaldelajinetida.com</p>
+      <p>info@capitaldelajineteada.com</p>
     </div>  
   </div>
 </footer>

@@ -1,8 +1,13 @@
+/*------------------------------TIPOGRAFÍAS---------------*/
 @font-face{
 	src:url('../fonts/OpenSansCondensed-Light.ttf');
-	font-family: 'OpenSC-light';
+	font-family: 'Light';
 }
-
+@font-face{
+	src:url('../fonts/OpenSansCondensed-Bold.ttf');
+	font-family: 'Bold';
+}
+/*---------------------------------------------------------*/
 .container {
   max-width: 960px;
 }
@@ -15,10 +20,23 @@ body{
 .navbar a{
 	color:white;
 }
+.carousel-item{
+	position: relative;
+}
+.carousel-item:before{
+	content: '';
+	position: absolute;
+	background-color:#F57714;
+	opacity:.5;
+	top:0;
+	left:0;
+	width: 100%;
+	height: 100%;
+}
 
 .lead{
-		font-family: 
-		font-size: 15px;
+		font-family: 'Light';
+		font-size: 20px;
 	}
 
 .card{
@@ -29,6 +47,8 @@ body{
 	color:black;
 	transform: scale(.8);
 }
+
+
 .card:hover{
 	transform:scale(1.05);
 	opacity:1;
@@ -45,8 +65,19 @@ footer{
 	height: 250px;
 }
 
-#contact p{
+footer b{
+	font-family: 'Bold';
+	font-size: 20px;
+	letter-spacing: 3px;
+}
+
+.pricing-header b{
+	font-family: 'Bold';
+}
+
+footer #contact p{
 	margin: 0;
+	font-family: 'Light';
 }
 
 #entradassm{
@@ -63,7 +94,21 @@ footer{
 #separated{
 	/*display: none;*/
 }
-
+h2{
+	font-family: 'Bold';
+}
+li{
+	font-family: 'Light';
+	font-size: 20px;
+}
+h5 , .navbar-brand{
+	font-family: 'Bold';
+	font-size: 25px;
+}
+.navbar-brand{
+	letter-spacing: 2px;
+	margin:0;
+}
 
 /*--------------------------------------------MEDIAQUERIES---------*/
 @media (max-width: 380px){
@@ -78,19 +123,20 @@ footer{
 		display: none;
 	}
 	.card:hover{
-		transform:scale(.75);
+		transform:scale(.8);
 	}
 	.slick-slide{
 		outline: none;
 	}
 	.slick-active .card{
 		opacity: 1;
+		transform:scale(.85);
 	}
 	footer ul li{
 		font-size: 12px;
 	}
 	.lead{
-		font-size: 14px;
+		font-size: 18px;
 	}
 
 }
