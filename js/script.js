@@ -4,7 +4,6 @@ $(document).ready(function(){
   var fecha = new Date();
   if(limit.getTime()<fecha.getTime())
   {
-    console.log('debe mostrar separated');
     $('#allin').hide();
     $('#separated').show();
   }
@@ -13,7 +12,6 @@ $(document).ready(function(){
     $('#separated').hide();
     $('#allin').show();
   }
-  console.log(fecha+'---'+limit);
  $('.center').slick({
   centerMode: true,
   centerPadding: '60px',
