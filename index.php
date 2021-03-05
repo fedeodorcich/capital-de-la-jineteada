@@ -23,7 +23,7 @@
 	<link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/styles.css">
 
-  <script src="https://unpkg.com/feather-icons"></script>
+  <script src="js/feathericons.js"></script>
   
 </head>
 <body class="bg-dark">
@@ -61,9 +61,20 @@
 </div>
 
 
-<!--div id="allin" class="container col-md-8" style="margin:0 auto; display: block">
+<div id="allin" class="container co-md-8" style="padding:1em 0;">
  
-</div-->
+ <div class="col">
+   <div class="card" style="width: 18rem;margin:0 auto;">
+  <img src="img/card-image1.png" class="card-img-top" alt="...">
+  <div class="card-body">
+      <h5 class="card-title">Entrada para los 3 días</h5>
+      <p class="card-text">Podes adquirir las entradas para los 3 días haciendo click en el siguiente botón.</p>
+      <script src="https://www.mercadopago.com.ar/integrations/v1/web-payment-checkout.js"data-preference-id="130258701-6a989ca9-7c12-4401-9827-849feb1daa7b">
+      </script>
+    </div>
+  </div>
+  </div>
+</div>
 
 
 
@@ -201,7 +212,7 @@
     </div>
     <div class="nets">
         <a href="" class="text-dark"><i data-feather="facebook"></i></a>
-        <a href="" class="text-dark"><i data-feather="instagram"></i></a>
+        <a href="https://www.instagram.com/capitaldelajineteada/" class="text-dark"><i data-feather="instagram"></i></a>
         <a href="" class="text-dark"><i data-feather="twitter"></i></a>
     </div>    
   </div>
