@@ -1,9 +1,19 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title></title>
+	<title>Capital de la Jineteada</title>
 
+
+  <!-------------------------------------------------------METADATOS------->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+  <meta charset="utf-8">
+  <meta name="description" content="Página oficial de la capital de la jineteada llevada a cabo en el predio Tito Saluzzo, desde esta web se pueden adquirir las entradas para el evento"/>
+  <meta name="keywords" content="capital de la jineteada, capital, jineteada, entradas, doma, caballos, las varillas"/>
+  <meta name="author" content="Federico Odorcich - Web Developer" />
+  <meta name="robots" content="index"/>
+  <meta http-equiv="cache-control" content="no-cache"/>
+
+
 
   <!-------------------------------------------CAROUSEL---------------->
   <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
@@ -178,7 +188,7 @@
   left:0;
   right:0;
   font-family: 'Bold';
-  letter-spacing: 3px;
+  letter-spacing: 0px;
   font-size: 15px;
 }
 </style>
