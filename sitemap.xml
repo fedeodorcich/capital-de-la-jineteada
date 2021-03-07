@@ -1,5 +1,25 @@
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-<url>
-<loc>https://www.capitaldelajineteada.com/</loc>
-</url>
-</urlset>
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <url>
+    <loc>https://capitaldelajineteada.com</loc>
+    <image:image>
+      <image:loc>http://capitaldelajineteada.com/img/card-image1.png</image:loc>
+    </image:image>
+     <image:image>
+      <image:loc>http://capitaldelajineteada.com/img/card-image2.png</image:loc>
+    </image:image>
+     <image:image>
+      <image:loc>http://capitaldelajineteada.com/img/card-image3.png</image:loc>
+    </image:image>
+     <image:image>
+      <image:loc>http://capitaldelajineteada.com/img/image1.jpg</image:loc>
+    </image:image>
+     <image:image>
+      <image:loc>http://capitaldelajineteada.com/img/image2.jpg</image:loc>
+    </image:image>
+     <image:image>
+      <image:loc>http://capitaldelajineteada.com/img/image3.jpg</image:loc>
+    </image:image>
+  </url>
+</urlset> 

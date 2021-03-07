@@ -118,6 +118,18 @@ h5 , .navbar-brand{
 	margin:0;
 }
 
+#map{
+	width: 100%;
+	overflow: hidden;
+	padding: 0;
+	position: relative;
+	height: 390px;
+}
+#map iframe{
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+}
 /*--------------------------------------------MEDIAQUERIES---------*/
 @media (max-width: 380px){
 	#separated .card{
