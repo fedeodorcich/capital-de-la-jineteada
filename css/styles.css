@@ -48,7 +48,7 @@ body{
 }
 
 #separated .card{
-	min-height: 25rem;
+	min-height: 29rem;
 	background-color: #ebebeb;
 	transition: all .4s ease-in-out;
 	opacity: 0.7;
