@@ -34,7 +34,7 @@ body{
 	height: 100%;
 }
 
-.lead{
+.lead , p{
 		font-family: 'Light';
 		font-size: 20px;
 	}
@@ -71,6 +71,10 @@ body{
 footer{
 	background-color:#F57714;
 	height: 250px;
+}
+
+b{
+	font-family: 'Bold';
 }
 
 footer b{
@@ -130,6 +134,32 @@ h5 , .navbar-brand{
 	bottom: 0;
 	width: 100%;
 }
+
+/*------------------------------------MODAL-------*/
+.modalette{
+	display: none;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color:rgba(0,0,0,.7);
+	z-index: 10
+}
+.modalette form{
+	position: absolute;
+	z-index: 100;
+	width: 40%;
+	height: 55%;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+}
+/*------------------------------------------------*/
+
+
 /*--------------------------------------------MEDIAQUERIES---------*/
 @media (max-width: 380px){
 	#separated .card{
@@ -157,6 +187,10 @@ h5 , .navbar-brand{
 	}
 	.lead{
 		font-size: 18px;
+	}
+	.modalette form{		
+		width: 90%;
+		height: 55%;
 	}
 
 }

@@ -77,8 +77,9 @@
   <div class="card-body">
       <h5 class="card-title">Entrada para los 3 días</h5>
       <p class="card-text">Podes adquirir las entradas para los 3 días haciendo click en el siguiente botón.</p>
-      <script src="https://www.mercadopago.com.ar/integrations/v1/web-payment-checkout.js"data-preference-id="130258701-6a989ca9-7c12-4401-9827-849feb1daa7b">
-      </script>
+      <script src="https://www.mercadopago.com.ar/integrations/v1/web-payment-checkout.js"
+data-preference-id="177465496-16fba1d0-bf30-43d0-9da8-55f500b0720b">
+</script>
     </div>
   </div>
   </div>
@@ -146,6 +147,9 @@
 
 </div>
 
+	<h3>TRANSFERENCIA BANCARIA</h3>
+	<P><b>CBU:</b>128740934573945</P>
+
 </section>
 
 
@@ -196,6 +200,50 @@
 
 </div>
 
+<div class="col-md-8 container text-center">
+	<h2>TRANSFERENCIA BANCARIA</h2>
+	<b>CBU</b>
+	<P>20085972082</P>
+</div>
+	
+<!--------------------------------------MODAL------------------>
+	<div class="modalette">
+		<form action="" class="bg-dark p-4">
+			<h2>DATOS DE PAGO</h2>
+			<div class="mb-3">
+    			<input type="text" class="form-control" id="nombre" placeholder="Nombre completo" required>
+  			</div>
+  			<div class="mb-3">
+    			<input type="text" class="form-control" id="telefono" placeholder="Teléfono" required>
+  			</div>
+  			<div class="mb-3">
+    			<input type="text" class="form-control" id="operacion" placeholder="Nro. Operación/Comprobante" required>
+  			</div>
+  			<div id="pago">
+  				<input class="form-check-input" type="radio" name="pago" id="tbank" value="0" required>
+  				<label class="form-check-label" for="tbank">
+    				Transferencia Bancaria
+  				</label>
+				</div>
+				<div class="form-check">
+  				<input class="form-check-input" type="radio" name="pago" id="mpago" value="1">
+  				<label class="form-check-label" for="mpago">
+    				Mercado Pago
+  				</label>
+				</div>
+			<button class="btn btn-secondary mt-3" id="cancel">CERRAR</button>
+  			<input type="submit" class="btn btn-primary mt-3" id="done" value="LISTO">
+		</form>
+	</div>
+
+<!------------------------------------------------------------->
+
+<section class="col-md-12 text-center mt-5 mb-5 p-4" style="background-color:#F57714;">
+	<h2>¿YA COMPRASTE TU ENTRADA?</h2>
+	<p>Ingresá los datos de la transacción aquí para añadirte a la lista</p>
+	<button class="btn btn-light" id="former">INGRESAR</button>
+</section>
+
 <section id="map">
 	<h2 class="text-center" style="margin-top: 1em;">UBICACIÓN</h2>
 	<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13551.42334990036!2d-62.7085077!3d-31.8833364!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x4d6e32a6145bb8b7!2sPredio%20Tito%20Saluzzo!5e0!3m2!1ses-419!2sar!4v1615129719574!5m2!1ses-419!2sar" width="1360" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
@@ -225,7 +273,7 @@
     </div>
     <div class="nets">
         <a href="" class="text-dark"><i data-feather="facebook"></i></a>
-        <a href="https://www.instagram.com/capitaldelajineteada/" class="text-dark"><i data-feather="instagram"></i></a>
+        <a href="https://www.instagram.com/capitaldelajineteada/" class="text-dark" target="_blank"><i data-feather="instagram"></i></a>
         <a href="" class="text-dark"><i data-feather="twitter"></i></a>
     </div>    
   </div>
@@ -243,7 +291,6 @@
 
 
 
-
 <script src="js/jquery.js"></script>
 <script src="js/popper.min.js"></script>
 <script src="js/bootstrap.bundle.min.js"></script>
@@ -251,6 +298,36 @@
 <script src="js/script.js"></script>
 
 <script>
+	$('#former').on('click',function(){
+		$('.modalette').fadeIn();
+	});
+	$('#cancel').on('click',function(){
+		event.preventDefault();
+		$('.modalette').fadeOut();
+	});
+	$("#done").on('click',function(){
+		//event.preventDefault();
+
+		var data = {
+			"nombre":$('#nombre').val(),
+			"telefono":$('#telefono').val(),
+			"operacion":$('#operacion').val(),
+			"medio":$('input:radio[name=pago]:checked').val(),
+		}
+		$.ajax({
+			url: 'php/create.php',
+			type: 'POST',
+			data: {data},
+			success:function(data){
+				console.log(data);
+				/*if(data==1){
+					console.log("Se realizo la carga");
+				}else{
+					console.log("No se realizó la carga");
+				}*/
+			}
+		});
+	});
 </script>
 
 </body>
