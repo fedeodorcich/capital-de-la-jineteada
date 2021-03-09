@@ -1,6 +1,6 @@
 feather.replace();
 $(document).ready(function(){
-  var limit = new Date(2021,2,12);
+  var limit = new Date(2021,1,12);
   var fecha = new Date();
   if(limit.getTime()<fecha.getTime())
   {

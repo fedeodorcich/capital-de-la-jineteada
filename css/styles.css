@@ -177,8 +177,12 @@ h5 , .navbar-brand{
 	}
 	.slick-slide{
 		outline: none;
+		opacity: 1;
 	}
-	.slick-active .card{
+	.slick-active{
+		opacity: 1;
+	}
+	#separated .slick-active .card{
 		opacity: 1;
 		transform:scale(.85);
 	}
